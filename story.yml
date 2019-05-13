@@ -1,1 +1,7 @@
 app_name: stories
+
+forwards:
+  - service: github
+    name: events
+    http:
+      path: /github/webhooks
